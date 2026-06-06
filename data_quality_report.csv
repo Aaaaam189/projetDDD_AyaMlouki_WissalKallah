@@ -1,0 +1,6 @@
+Table,Problème,Colonnes,Sévérité,Action ETL
+olist_orders,Dates de livraison manquantes pour commandes non livrées,"order_delivered_customer_date, order_delivered_carrier_date",Moyenne,"Filtrer sur order_status = ""delivered"" pour les analyses livraison"
+olist_reviews,Commentaires textuels manquants (~60% des avis),"review_comment_title, review_comment_message",Faible,Utiliser uniquement review_score (numérique) pour les modèles
+instacart_orders,days_since_prior_order = NaN pour la 1ère commande client,days_since_prior_order,Normale (attendue),"Imputer par 0 ou flag ""first_order"" selon l'usage"
+olist_customers,customer_id ≠ customer_unique_id (un client peut avoir plusieurs customer_id),"customer_id, customer_unique_id",Haute,Toujours agréger par customer_unique_id pour éviter les doublons clients
+olist_payments,Plusieurs lignes par order_id (paiements fractionnés),payment_sequential,Moyenne,Agréger par order_id : sum(payment_value) pour obtenir le montant total

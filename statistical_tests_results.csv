@@ -1,0 +1,11 @@
+Hypothese,Statistique,p-value,Decision,Significatif
+Retard -> Satisfaction (T-Test),100.9655,0.0,Rejeter H0,Oui
+Retard -> Satisfaction (Mann-Whitney),472044142.0,0.0,Rejeter H0,Oui
+Categorie -> Satisfaction (Chi-Square),1015.2797,0.0,Rejeter H0,Oui
+Categorie -> Satisfaction (ANOVA),17.9355,0.0,Rejeter H0,Oui
+Categorie -> Satisfaction (ANOVA),17.9355,0.0,Rejeter H0,Oui
+Categorie -> Satisfaction (Kruskal-Wallis),775.6334,0.0,Rejeter H0,Oui
+Fidelite -> Depense (Mann-Whitney),196239221.0,0.0,Rejeter H0,Oui
+Fidelite -> Note (Mann-Whitney),120431722.0,0.0,Rejeter H0,Oui
+Etat -> Retard (Chi-Square),1577.9955,0.0,Rejeter H0,Oui
+Fidelite -> Recence (Mann-Whitney),118743422.0,0.0,Rejeter H0,Oui
