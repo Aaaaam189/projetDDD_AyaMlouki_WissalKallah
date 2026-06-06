@@ -1,0 +1,7 @@
+feature
+recency_days
+log_recency
+total_spent
+log_total_spent
+state_encoded
+is_high_value
